@@ -1,0 +1,16 @@
+h2 {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    flex-flow: row;
+    list-style: none;
+    align-items: center;
+    margin: 40px 4% 0 4%;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}

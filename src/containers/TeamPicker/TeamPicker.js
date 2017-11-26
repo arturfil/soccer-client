@@ -10,11 +10,15 @@ class TeamPicker extends Component {
                 <ul>
                     <li>
                         <img src="https://media.giphy.com/media/r1IMdmkhUcpzy/giphy.gif"/>
+                        <h3>Real Madrid</h3>
                     </li>
                     <li>
                         <img src="https://media.giphy.com/media/T2AmoAqrjAluU/giphy.gif" />
-                    </li><li>
+                        <h3>Manchester United</h3>
+                    </li>
+                    <li>
                         <img src="https://media.giphy.com/media/kvSp97J1kBVqo/giphy.gif" />
+                        <h3>Barcelona</h3>
                     </li>
                 </ul>
             </div>

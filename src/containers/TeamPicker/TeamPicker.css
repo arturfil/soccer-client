@@ -14,3 +14,20 @@ img {
     height: 250px;
     width: 400px;
 }
+
+h3 {
+    text-align: center;
+}
+
+@media (max-width: 999px) {
+    img {
+        height: 400px;
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    li {
+        margin: 0 auto;
+        text-align: center;
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './SideDrawer.css';
 import NavigationItems from '../NavigationItems/NavigationItems';
-//Missing Backdrop 
+import Backdrop from '../../UI/Backdrop/Backdrop'; 
 import Aux from '../../../hoc/Aux/Aux';
 
 const sideDrawer = (props) => {
@@ -12,15 +12,16 @@ const sideDrawer = (props) => {
         attachedClasses = [classes.SideDrawer, classes.Open];
     }
 
-   return (
-       <Aux>
-            <div className={attachedClasses.join(' ')}>
-                <nav>
-                    <NavigationItems />
-                </nav>
-            </div>
-       </Aux>
-   )
+    return (
+        <Aux>
+            <Backdrop show={props.open} clicked={props.closed}/>
+                <div className={attachedClasses.join(' ')}>
+                    <nav>
+                        <NavigationItems />
+                    </nav>
+                </div>
+        </Aux>
+    )
 };
 
 export default sideDrawer;
